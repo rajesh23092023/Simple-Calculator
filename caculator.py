@@ -23,11 +23,12 @@ def calculator():
         elif choice == '4':
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
-            if num2 != 0:
-                print("Result = ", num1 / num2)
+            print("Result = ", num1 / num2)
         elif choice == '5':
-            print("Exiting the calculator. Goodbye!")
+            print("Exit!!!")
+            break
+
         else:
             print("Invalid input. Please select a valid operation.")
-        break
+
 calculator()
